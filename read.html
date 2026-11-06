@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f2652f" />
+  <title>Read | Paper Lantern Press</title>
+  <meta name="description" content="Read writing and creative work from the young voices of Paper Lantern Press." />
+  <link rel="icon" href="assets/dragon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">
+        <img src="assets/dragon.png" alt="Paper Lantern Press logo" />
+        Paper Lantern Press
+      </a>
+      <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('navlinks').classList.toggle('open')">&#9776;</button>
+      <nav class="nav-links" id="navlinks">
+        <a href="index.html#mission">About</a>
+        <a href="read.html">Read</a>
+        <a href="index.html#how">Submit</a>
+        <a href="index.html#join">Join</a>
+        <a class="nav-cta" href="index.html#how">Submit your work</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== READ ===== -->
+  <section class="read" style="padding-top:3.5rem;">
+    <div class="wrap">
+      <span class="tag center">The Press</span>
+      <h2 class="title" style="text-align:center;">Read</h2>
+      <p class="how-sub center">Writing and creative work from our young contributors, published on a rolling basis.</p>
+
+      <div class="piece-grid">
+
+        <!-- PIECE CARD: duplicate this block for each published piece.
+             Example (commented out until you publish your first):
+        <a class="piece-card" href="pieces/example-piece.html">
+          <span class="pc-tag">Essay</span>
+          <h3>Piece Title</h3>
+          <p class="by">by Writer Name &middot; age 00</p>
+          <p class="excerpt">A one-line excerpt that invites the reader in.</p>
+        </a>
+        -->
+
+      </div>
+
+      <!-- Shown while there are no pieces yet. Delete once you publish the first. -->
+      <p class="how-sub center" style="margin: 2.5rem auto 0; max-width:50ch; font-style:italic;">Our first writers are on their way. Want to be among them? <a href="index.html#how">Submit your work</a>.</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTRIBUTORS (folded into the Read page) ===== -->
+  <section class="join" id="contributors" style="padding-top:3.5rem;">
+    <div class="wrap">
+      <span class="tag center">Our writers</span>
+      <h2 class="title" style="text-align:center;">Contributors</h2>
+      <p class="how-sub center">The young voices behind the work. Every name here is a writer we were glad to listen to.</p>
+
+      <div class="contrib-grid">
+
+        <!-- CONTRIBUTOR: duplicate this block for each writer.
+             Example (commented out), copy, fill in, and uncomment:
+        <div class="contrib">
+          <div class="c-name">Writer Name</div>
+          <div class="c-meta">Role or location</div>
+          <div class="c-bio">A short bio in the writer's own words.</div>
+        </div>
+        -->
+
+      </div>
+
+      <!-- Shown while there are no contributors yet. Delete once you add the first. -->
+      <p class="how-sub center" style="margin: 2.5rem auto 0; max-width:50ch; font-style:italic;">No contributors just yet &mdash; this is where our writers will live.</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="wrap">
+      <div class="f-badge">
+        <img src="assets/dragon.png" alt="Paper Lantern Press logo" />
+        <div>
+          <div class="f-name">Paper Lantern Press</div>
+          <div class="f-tagline">A youth-led literary platform &middot; flames lit since 2026</div>
+        </div>
+      </div>
+      <div class="f-links">
+        <a href="mailto:astraealiu44@gmail.com">Email</a>
+        <a href="index.html#mission">About</a>
+        <a href="read.html">Read</a>
+        <a href="index.html#how">Submit</a>
+      </div>
+      <div class="f-copy">&copy; 2026 Paper Lantern Press &middot; Taipei, Taiwan</div>
+    </div>
+  </footer>
+
+</body>
+</html>
